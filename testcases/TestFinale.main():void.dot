@@ -1,0 +1,4 @@
+digraph "TestFinale.main():void" {
+size = "11,7.5";
+codeblock_0 [ shape = box, label = "block 0\nnew TestFinale\ndup TestFinale\ncall TestFinale() [TestFinale()]\nstore 0 of type TestFinale\nload 0 of type TestFinale\nnewstring ciao\nputfield TestFinale.messaggio:String\nnewstring Fuori splende il sole!\\n\ncall String.output():void [String.output():void]\nreturn void"];
+}

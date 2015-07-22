@@ -1,0 +1,4 @@
+digraph "Scramble(int[],int)" {
+size = "11,7.5";
+codeblock_1 [ shape = box, label = "block 1\nload 0 of type Scramble\ncall Object() [Object()]\nload 0 of type Scramble\nload 1 of type int[]\nputfield Scramble.array:int[]\nload 0 of type Scramble\nload 2 of type int\nputfield Scramble.length:int\nreturn void"];
+}

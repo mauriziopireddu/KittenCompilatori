@@ -1,0 +1,8 @@
+digraph "TestFinale.funzionante=test" {
+size = "11,7.5";
+codeblock_11 [ shape = box, label = "block 11\nconst 1\nconst 1"];
+codeblock_10 [ shape = box, label = "block 10\nif_cmpne int\nnewstring Assert fallita a: 6.9\ncall String.output():void [String.output():void]\nconst -1\nreturn int"];
+codeblock_11->codeblock_10 [color = blue label = "" fontsize = 8]
+codeblock_9 [ shape = box, label = "block 9\nif_cmpeq int\nnewstring passed\ncall String.output():void [String.output():void]\nconst 0\nreturn int"];
+codeblock_11->codeblock_9 [color = blue label = "" fontsize = 8]
+}

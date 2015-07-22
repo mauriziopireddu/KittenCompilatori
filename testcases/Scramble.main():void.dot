@@ -1,0 +1,4 @@
+digraph "Scramble.main():void" {
+size = "11,7.5";
+codeblock_0 [ shape = box, label = "block 0\nconst 5\nnewarray of int of 1 dimension\nstore 0 of type int[]\nload 0 of type int[]\nconst 0\nconst 3\nstore into array of int\nload 0 of type int[]\nconst 1\nconst 5\nneg int\nstore into array of int\nload 0 of type int[]\nconst 2\nconst 4\nstore into array of int\nload 0 of type int[]\nconst 3\nconst 21\nstore into array of int\nload 0 of type int[]\nconst 4\nconst 18\nstore into array of int\nnew Scramble\ndup Scramble\nload 0 of type int[]\nconst 5\ncall Scramble(int[],int) [Scramble(int[],int)]\nstore 1 of type Scramble\nload 1 of type Scramble\nnewstring \nload 1 of type Scramble\ngetfield Scramble.length:int\nnewarray of boolean of 1 dimension\ncall Scramble.scramble(String,boolean[]):void [Scramble.scramble(String,boolean[]):void]\nreturn void"];
+}

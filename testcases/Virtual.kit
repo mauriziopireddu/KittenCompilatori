@@ -1,0 +1,18 @@
+class Virtual {
+  constructor () {}
+
+  method void main() {
+    Virtual v := new Virtual();
+    // usa toString di A
+    v.print(new A());
+    
+    // usa toString di B
+    v.print(new B());
+    
+    // usa toString di S
+    v.print(new S())
+  }
+
+  method void print(S s)
+    s.toString().output()
+}

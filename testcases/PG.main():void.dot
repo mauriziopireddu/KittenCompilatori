@@ -1,0 +1,4 @@
+digraph "PG.main():void" {
+size = "11,7.5";
+codeblock_0 [ shape = box, label = "block 0\nnew PG\ndup PG\ncall PG() [PG()]\nstore 0 of type PG\nload 0 of type PG\nnewstring ciao\nputfield PG.msg:String\nnewstring funziono solo io!\\n\ncall String.output():void [String.output():void]\nreturn void"];
+}

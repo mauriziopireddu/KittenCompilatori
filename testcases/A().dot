@@ -1,0 +1,4 @@
+digraph "A()" {
+size = "11,7.5";
+codeblock_26 [ shape = box, label = "block 26\nload 0 of type A\ncall S() [S()]\nreturn void"];
+}

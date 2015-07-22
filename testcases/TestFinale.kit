@@ -1,0 +1,33 @@
+class TestFinale {
+	field String messaggio
+    field int valore    
+    
+    test funzionante
+        assert(1 = 1)
+    
+    test nonfunzionante
+        assert((2 + 2) = 5)
+
+    constructor(){}
+    
+    method void welcome()
+        "Benvenuto".output()
+    
+    method void setMessaggio(String messaggio)
+        this.messaggio := messaggio
+       
+    method void setVal(int valore)
+        this.valore := valore 
+    
+    method void sayWelcome()
+        this.messaggio.output()
+
+    method void main(){
+    TestFinale tf := new TestFinale();
+    tf.messaggio := "ciao";
+    "Fuori splende il sole!\n".output()
+
+    }
+    
+        
+}
